@@ -10,7 +10,7 @@
     "bundlesize": "bundlesize",
     "browsersync": "node build/browsersync.js",
     "images-copy-build": "cp -R img/* dist/img/",
-    "assets-copy-build": "mkdir -p demo/dist && cp -R dist/* demo/dist/ && mkdir -p demo/static && cp -R static/* demo/static/",
+    "assets-copy-build": "mkdir -p demo/dist && cp -R dist/* demo/dist/ && mkdir -p demo/static && cp -R static/* demo/static/ && mkdir -p /Users/patrick/code/relevize/flaskapp/static/dist && cp -R dist/* /Users/patrick/code/relevize/flaskapp/static/dist/ ",
     "html-build": "JEKYLL_ENV=production bundle exec jekyll build --destination demo",
     "lint": "npm-run-all --parallel js-lint css-lint",
     "clean": "rm -rf tmp-dist && mkdir tmp-dist && mkdir tmp-dist/css && mkdir tmp-dist/js",
