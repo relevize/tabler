@@ -1,11 +1,13 @@
 source: pages
 destination: tmp
 
-version: 1.0.0-alpha.3
+version: 1.0.0-alpha.4
 title: Tabler
 description: Premium and Open Source dashboard template with responsive and high quality UI.
 github_url: https://github.com/tabler/tabler
 sponsor_url: https://github.com/sponsors/codecalm
+
+mapbox_key: pk.eyJ1IjoiY29kZWNhbG0iLCJhIjoiSzRiOVJvQSJ9.BUVkTT6IYs83xSUs4H7bjQ
 
 debug: false
 
@@ -42,7 +44,7 @@ jekyll_tidy:
 
 toc:
   min_level: 2
-  max_level: 2
+  max_level: 3
   list_class: list-unstyled
 
 collections:
@@ -68,10 +70,11 @@ defaults:
       type: "docs"
     values:
       layout: docs
-  - scope:
-      type: "components"
-    values:
-      layout: component
+      toc: true
+#  - scope:
+#      type: "components"
+#    values:
+#      layout: component
 
 
 colors:
